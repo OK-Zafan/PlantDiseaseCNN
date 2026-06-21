@@ -1,0 +1,10 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.10.4 # Or the latest stable version
+  image: ^4.1.3           # For advanced bitmap processing
+
+flutter:
+  assets:
+    - assets/potato_model_mobilenetv2_v2.tflite
+    - assets/class_names.json
